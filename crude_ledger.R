@@ -24,8 +24,8 @@ library(rebus)
 
 
 ##### Path 설정
-path1 <- "P:/채승/Rwd/수불부/원유수불부"
-path2 <- "P:/채승/Rwd/수불부/원유수불부/파일"
+path1 <- "P:/채승/Rwd/Ledgers/Crude_Ledger"
+path2 <- "P:/채승/Rwd/Ledgers/Crude_Ledger/files"
 
 
 ##############################

@@ -177,7 +177,4 @@ addWorksheet(wb, "CDU2")
 writeData(wb, sheet = "CDU1", CDU1_data, startCol = 1, startRow = 1)
 writeData(wb, sheet = "CDU2", CDU2_data, startCol = 1, startRow = 1)
 
-openxlsx::saveWorkbook(wb, paste("원유수불(", 
-                                 filenms_[1], "~", 
-                                 filenms_[length(filenms_)],
-                                 ").xlsx", sep = ""), overwrite = TRUE) 
+openxlsx::saveWorkbook(wb, paste("crude_ledger(cleaned).xlsx", sep = ""), overwrite = TRUE) 
